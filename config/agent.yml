@@ -1,0 +1,2 @@
+external_data_path: data/external/records.csv
+get_weather_api_key: b58dba0e7fc586056f58ff44e37d3d92

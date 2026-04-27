@@ -1,0 +1,47 @@
+# Milvus/Docker volumes
+volumes/
+data/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 日志和临时文件
+*.log
+*.tmp
+.DS_Store
+
+# 数据库
+choma_db/
+*.sqlite3
+
+# 会话历史
+chat_history_*.pkl
+
+# 前端
+node_modules/
+.next/
+out/
+
+# 临时数据文件
+ragas_dataset.json
+md5.txt
