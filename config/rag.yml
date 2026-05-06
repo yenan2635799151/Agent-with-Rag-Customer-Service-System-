@@ -1,0 +1,11 @@
+chat_model_name: deepseek-v4-flash
+chat_model_url: https://api.deepseek.com
+chat_model_api_key: sk-f77e2d0691644d398ded6b8748a9a3bf
+
+embedding_model_name: /home/jiankunshi/.cache/huggingface/hub/models--BAAI--bge-small-zh/snapshots/1d2363c5de6ce9ba9c890c8e23a4c72dce540ca8
+embedding_model_kwargs: {"device":"cuda"}
+
+vector_k: 30
+bm25_k: 10
+final_k: 3
+reranker_model_name: /home/jiankunshi/.cache/huggingface/hub/models--BAAI--bge-reranker-base/snapshots/2cfc18c9415c912f9d8155881c133215df768a70
